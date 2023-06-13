@@ -1,0 +1,14 @@
+{
+  "name": "my-dependencies-action-app",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --watch server --signal SIGKILL server/index.ts",
+    "build": "next build ./client",
+    "start": "ts-node server/index.ts",
+    "test": "jest __tests__",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
