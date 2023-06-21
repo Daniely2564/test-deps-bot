@@ -1,0 +1,11 @@
+name: Test Inputs
+on:
+  workflow_dispatch:
+jobs:
+  test-user-inputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test User Inputs
+        uses: Daniely2564/random-gh-action@v1
+        with:
+          arr: ["A", "B", "C"]
