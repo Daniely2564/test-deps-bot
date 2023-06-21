@@ -8,4 +8,7 @@ jobs:
       - name: Test User Inputs
         uses: Daniely2564/random-gh-action@v1
         with:
-          arr: ABCDEF
+          arr: |-
+            AAA
+            CCCC
+            DDDD
